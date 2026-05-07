@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>欧米茄九品牌资产 | Omega 9 Brand Assets</title>
+  <meta name="description" content="欧米茄九品牌资产网页，包含当前主 logo、近期产品视觉、易拉宝、产品单页和 20260506 对外介绍图片，用于 Pomelli 品牌资产识别。">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #13201b;
+      --muted: #66736d;
+      --line: #dce4df;
+      --paper: #f7faf7;
+      --panel: #ffffff;
+      --green: #2f6f4e;
+      --gold: #b78a33;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      letter-spacing: 0;
+    }
+
+    header {
+      min-height: 72vh;
+      display: grid;
+      align-items: center;
+      padding: 48px 24px 36px;
+      background:
+        linear-gradient(90deg, rgba(247, 250, 247, 0.94), rgba(247, 250, 247, 0.64)),
+        url("assets/current-rollup-banner.jpg") center right / cover no-repeat;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .hero {
+      width: min(1120px, 100%);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(220px, 360px) 1fr;
+      gap: 44px;
+      align-items: center;
+    }
+
+    .hero-logo {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: contain;
+      background: rgba(255, 255, 255, 0.86);
+      border: 1px solid var(--line);
+      padding: 28px;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: clamp(40px, 7vw, 82px);
+      line-height: 0.98;
+      font-weight: 760;
+    }
+
+    .subtitle {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 19px;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 36px 0 56px;
+    }
+
+    section {
+      margin-top: 44px;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 18px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 25px;
+      line-height: 1.2;
+    }
+
+    .note {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    figure {
+      margin: 0;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      overflow: hidden;
+    }
+
+    figure img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: contain;
+      background: #fff;
+    }
+
+    .visual img {
+      object-fit: cover;
+    }
+
+    .tall img {
+      aspect-ratio: 3 / 4;
+      object-fit: contain;
+    }
+
+    figcaption {
+      min-height: 44px;
+      padding: 12px 14px;
+      color: var(--muted);
+      font-size: 14px;
+      border-top: 1px solid var(--line);
+    }
+
+    footer {
+      padding: 24px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--line);
+      background: #fff;
+    }
+
+    @media (max-width: 760px) {
+      header {
+        min-height: auto;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .hero-logo {
+        max-width: 280px;
+      }
+
+      .section-head {
+        display: block;
+      }
+
+      .note {
+        margin-top: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <img class="hero-logo" src="assets/logo-transparent.png" alt="欧米茄九 Omega 9 logo">
+      <div>
+        <h1>欧米茄九<br>Omega 9</h1>
+        <p class="subtitle">品牌资产快速页。仅保留当前统一素材：主 logo、近期产品视觉、易拉宝、产品单页和 20260506 霍普金斯技术支持版对外介绍图，供 Pomelli 读取品牌识别、视觉风格和营销素材。</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="section-head">
+        <h2>Logo Assets</h2>
+        <p class="note">只使用当前主标识，不混入备用或旧版 logo</p>
+      </div>
+      <div class="grid">
+        <figure>
+          <img src="assets/logo-transparent.png" alt="欧米茄九透明底 logo">
+          <figcaption>主 logo · 透明底</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/logo-white.png" alt="欧米茄九白底 logo">
+          <figcaption>主 logo · 白底</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Brand Visuals</h2>
+        <p class="note">产品、展架、场景和单页视觉</p>
+      </div>
+      <div class="grid">
+        <figure class="visual">
+          <img src="assets/current-product-showcase.png" alt="欧米茄九产品展示图">
+          <figcaption>产品展示图</figcaption>
+        </figure>
+        <figure class="visual">
+          <img src="assets/current-brand-scene.jpg" alt="欧米茄九品牌场景图">
+          <figcaption>品牌场景图</figcaption>
+        </figure>
+        <figure class="tall">
+          <img src="assets/current-rollup-banner.jpg" alt="欧米茄九易拉宝视觉">
+          <figcaption>易拉宝视觉</figcaption>
+        </figure>
+        <figure class="tall">
+          <img src="assets/current-product-sheet.jpg" alt="欧米茄九产品单页预览">
+          <figcaption>产品单页预览</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Current Marketing Deck</h2>
+        <p class="note">20260506 霍普金斯技术支持版，对外介绍图</p>
+      </div>
+      <div class="grid">
+        <figure class="visual"><img src="assets/current-company-intro-01.jpg" alt="欧米茄九 20260506 对外介绍页 01"><figcaption>当前对外介绍页 01</figcaption></figure>
+        <figure class="visual"><img src="assets/current-company-intro-02.jpg" alt="欧米茄九 20260506 对外介绍页 02"><figcaption>当前对外介绍页 02</figcaption></figure>
+        <figure class="visual"><img src="assets/current-company-intro-03.jpg" alt="欧米茄九 20260506 对外介绍页 03"><figcaption>当前对外介绍页 03</figcaption></figure>
+        <figure class="visual"><img src="assets/current-company-intro-04.jpg" alt="欧米茄九 20260506 对外介绍页 04"><figcaption>当前对外介绍页 04</figcaption></figure>
+        <figure class="visual"><img src="assets/current-company-intro-05.jpg" alt="欧米茄九 20260506 对外介绍页 05"><figcaption>当前对外介绍页 05</figcaption></figure>
+        <figure class="visual"><img src="assets/current-company-intro-06.jpg" alt="欧米茄九 20260506 对外介绍页 06"><figcaption>当前对外介绍页 06</figcaption></figure>
+        <figure class="visual"><img src="assets/current-company-intro-07.jpg" alt="欧米茄九 20260506 对外介绍页 07"><figcaption>当前对外介绍页 07</figcaption></figure>
+        <figure class="visual"><img src="assets/current-company-intro-08.jpg" alt="欧米茄九 20260506 对外介绍页 08"><figcaption>当前对外介绍页 08</figcaption></figure>
+        <figure class="visual"><img src="assets/current-company-intro-09.jpg" alt="欧米茄九 20260506 对外介绍页 09"><figcaption>当前对外介绍页 09</figcaption></figure>
+        <figure class="visual"><img src="assets/current-company-intro-10.jpg" alt="欧米茄九 20260506 对外介绍页 10"><figcaption>当前对外介绍页 10</figcaption></figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>Omega 9 Brand Assets · Built for Pomelli ingestion</footer>
+</body>
+</html>
