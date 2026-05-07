@@ -2,8 +2,9 @@
 
 Public brand asset page for Pomelli ingestion.
 
-This package intentionally includes only the current unified assets:
+This package intentionally includes only the current logo assets.
 
 - Main logo, transparent and white background
-- Current product and brand scene images
-- Current roll-up banner and product sheet preview
+
+Product bottle or packaging images are intentionally excluded to avoid training
+Pomelli on unclear or non-original product visuals.
